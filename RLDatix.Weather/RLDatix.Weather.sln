@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLDatix.Weather.Api", "src\RLDatix.Weather.Api\RLDatix.Weather.Api.csproj", "{2299C4C8-2A0E-43A2-8A1F-1D2A3E8A81E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5818D2B-4ECE-4593-95D1-5128B5EE3A37} = {E5818D2B-4ECE-4593-95D1-5128B5EE3A37}
+		{E9BE9D2F-8F2D-4126-A541-B68E1E5397FD} = {E9BE9D2F-8F2D-4126-A541-B68E1E5397FD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLDatix.Weather.Application", "src\RLDatix.Weather.Application\RLDatix.Weather.Application.csproj", "{E9BE9D2F-8F2D-4126-A541-B68E1E5397FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLDatix.Weather.Infrastructure", "src\RLDatix.Weather.Infrastructure\RLDatix.Weather.Infrastructure.csproj", "{E5818D2B-4ECE-4593-95D1-5128B5EE3A37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E9BE9D2F-8F2D-4126-A541-B68E1E5397FD} = {E9BE9D2F-8F2D-4126-A541-B68E1E5397FD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2299C4C8-2A0E-43A2-8A1F-1D2A3E8A81E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2299C4C8-2A0E-43A2-8A1F-1D2A3E8A81E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2299C4C8-2A0E-43A2-8A1F-1D2A3E8A81E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2299C4C8-2A0E-43A2-8A1F-1D2A3E8A81E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9BE9D2F-8F2D-4126-A541-B68E1E5397FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BE9D2F-8F2D-4126-A541-B68E1E5397FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BE9D2F-8F2D-4126-A541-B68E1E5397FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BE9D2F-8F2D-4126-A541-B68E1E5397FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5818D2B-4ECE-4593-95D1-5128B5EE3A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5818D2B-4ECE-4593-95D1-5128B5EE3A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5818D2B-4ECE-4593-95D1-5128B5EE3A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5818D2B-4ECE-4593-95D1-5128B5EE3A37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF183398-C229-4B98-A65B-4D9F5A3D6C3C}
+	EndGlobalSection
+EndGlobal
