@@ -16,7 +16,9 @@ namespace RLDatix.Weather.Application
     {
         public static IServiceCollection AddInfrastruture(this IServiceCollection services)
         {
+            // Register IHttpClientFactory to DI container
             services.AddHttpClient("OpenWeatherMapApiClient").AddPolicyHandler(GetRetryPolicy());
+
             services.AddTransient<IExternalApiSerevice, OpenWeatherMapApiSerevice>();
 
             return services;

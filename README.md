@@ -30,7 +30,9 @@ The application uses key based authentication. The API key needs to be passed in
 ## Project status
 The project is currently incomplete. The below modules are to be added -
 * SPA page to take the input and display the result is to be implemented. 
-* Unit Testing and Integration Testing to be added.
+* Unit Testing and Integration Testing to be added with xUnit framework.
+* Cross-cutting concerns like error handling,logging can be centralized using Pipeline behaviour.
+* Validation can be done using fluent validation.
 
 
 ## Approach Taken
@@ -46,3 +48,5 @@ The Infrastructure project represents the Infrastructure layer and contains clas
 These classes should be based on interfaces defined within the Application layer.
 
 The API project represents the Presentation layer. This project is based on  ASP.NET Core. This layer depends on both the Application and Infrastructure layers. Please note the dependency on Infrastructure is only to support dependency injection. Therefore Program.cs should include the only reference to Infrastructure.
+
+
