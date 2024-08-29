@@ -10,6 +10,8 @@ The following prerequisites are required to build and run the solution:
 * Visual Studio 2022
 * Postman
 
+Repository is placed on the Main branch. 
+Download the code.
 Build and run the app using Visual Studio. Execute the Swagger to fetch the API endpoint.
 Run the API using this endpoint via postman to see the response.
 The below input paramters should be passed in the API 
@@ -17,6 +19,7 @@ The below input paramters should be passed in the API
 * lon
 
 The application uses key based authentication. The API key needs to be passed in the Header information.
+Postman collection and environment is also added to Docs folder which makes it easier to run the API and see the response.
 
 ## Technologies
 * ASP.NET Core 8
