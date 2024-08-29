@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "2a905228-e0be-4eff-81ff-9ec28e717168",
+		"name": "RLDatix.Weather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37983268"
+	},
+	"item": [
+		{
+			"name": "getWeather",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Api-Key",
+						"value": "{{X-Api-Key}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5141/WeatherForecast?lat={{lat}}&lon={{lon}}&appid={{appid}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5141",
+					"path": [
+						"WeatherForecast"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "{{lat}}"
+						},
+						{
+							"key": "lon",
+							"value": "{{lon}}"
+						},
+						{
+							"key": "appid",
+							"value": "{{appid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
