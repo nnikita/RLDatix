@@ -32,7 +32,7 @@ The project is currently incomplete. The below modules are to be added -
 * Unit Testing and Integration Testing to be added.
 
 
-## Approach Taken and Challenges
+## Approach Taken
 
 The Application follows Clean Architecture.
 
